@@ -33,7 +33,7 @@ export function ThreadListSidebar({
                   </div>
                   <div className="aui-sidebar-header-heading me-6 flex flex-col gap-0.5 leading-none">
                     <span className="aui-sidebar-header-title font-semibold">
-                      assistant-ui
+                      Chatly
                     </span>
                   </div>
                 </a>
@@ -49,7 +49,7 @@ export function ThreadListSidebar({
       <SidebarFooter className="aui-sidebar-footer border-t">
         <SidebarMenu>
           <SidebarMenuItem>
-            <SidebarMenuButton size="lg" asChild>
+            {/* <SidebarMenuButton size="lg" asChild>
               <a
                 href="https://github.com/assistant-ui/assistant-ui"
                 target="_blank"
@@ -65,7 +65,7 @@ export function ThreadListSidebar({
                   <span>View Source</span>
                 </div>
               </a>
-            </SidebarMenuButton>
+            </SidebarMenuButton> */}
           </SidebarMenuItem>
         </SidebarMenu>
       </SidebarFooter>
